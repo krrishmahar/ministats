@@ -1,0 +1,13 @@
+name: ministats
+arch: amd64
+platform: linux
+version: 1.0.0
+section: utils
+priority: optional
+maintainer: "Krrish Mahar <krrishmahar5@gmail.com>"
+description: "CLI to monitor basic system stats"
+homepage: "https://github.com/krrishmahar/ministats"
+license: "MIT"
+contents:
+  - src: ./ministats
+    dst: /usr/local/bin/ministats
