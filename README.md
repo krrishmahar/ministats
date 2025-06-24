@@ -69,3 +69,6 @@ MIT License — see LICENSE file for details.
 Pull requests, issues, and suggestions are welcome!
 If this CLI helps you, consider ⭐ starring the repo.
 ```
+
+---
+#### This Project is done with 🎯 [roadmap.sh](https://roadmap.sh/projects/server-stats)
