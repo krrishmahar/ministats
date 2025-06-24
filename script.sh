@@ -11,7 +11,7 @@ echo "[*] Moving binary to /usr/local/bin/..."
 sudo mv $BINARY_NAME /usr/local/bin/
 
 echo "[*] Generating man page..."
-go run main.go genman
+go run main.go
 sudo mv man/$BINARY_NAME.$MAN_SECTION /usr/share/man/man$MAN_SECTION/
 
 echo "[*] Updating man database..."

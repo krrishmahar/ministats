@@ -23,6 +23,7 @@ A blazing-fast, beautiful, and hackable CLI tool written in Go to monitor system
 ```bash
 git clone https://github.com/krrishmahar/ministats.git
 cd ministats
+chmod +x script.sh
 ./script.sh
 ```
 
