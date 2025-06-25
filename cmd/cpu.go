@@ -18,7 +18,7 @@ func NewCpuCmdAlt() *cobra.Command {
 				fmt.Println("Error:",err)
 				return 
 			}
-			fmt.Println("Total CPU Usage: ", headerStyle.Render(fmt.Sprintf("%.2f%%", perc[0])))
+			cmd.Println("Total CPU Usage: ", headerStyle.Render(fmt.Sprintf("%.2f%%", perc[0])))
 		},
 	}
 }

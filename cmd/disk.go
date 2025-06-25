@@ -16,7 +16,7 @@ func NewDiskCmd() *cobra.Command {
 				fmt.Println("Error:", err)
 				return
 			}
-			fmt.Println(headerStyle.Render(fmt.Sprintf("Disk Used: %.2f%% ", usage.UsedPercent)), fmt.Sprintf(" | (%.2f GB / %.2f GB)", float64(usage.Used)/1e9, float64(usage.Total)/1e9))
+			cmd.Println(headerStyle.Render(fmt.Sprintf("Disk Used: %.2f%% ", usage.UsedPercent)), fmt.Sprintf(" | (%.2f GB / %.2f GB)", float64(usage.Used)/1e9, float64(usage.Total)/1e9))
 		},
 	}
 }

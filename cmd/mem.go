@@ -16,7 +16,7 @@ func NewMemCmd() *cobra.Command {
 				fmt.Println("Error:", err)
 				return
 			}
-			fmt.Println(headerStyle.Render(fmt.Sprintf("Memory Used: %.2f%%", vm.UsedPercent)) +fmt.Sprintf(" | (%.2f GB / %.2f GB)", float64(vm.Used)/1e9, float64(vm.Total)/1e9))
+			cmd.Println(headerStyle.Render(fmt.Sprintf("Memory Used: %.2f%%", vm.UsedPercent)) +fmt.Sprintf(" | (%.2f GB / %.2f GB)", float64(vm.Used)/1e9, float64(vm.Total)/1e9))
 		},
 	}
 }
